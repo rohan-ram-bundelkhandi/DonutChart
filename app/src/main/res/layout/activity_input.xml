@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Total"
+        android:inputType="number"
+        android:id="@+id/total"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Correct"
+        android:inputType="number"
+        android:id="@+id/correct"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Incorrect"
+        android:inputType="number"
+        android:id="@+id/incorrect"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Un-Attempted"
+        android:inputType="number"
+        android:id="@+id/unAttempted"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:id="@+id/submit"
+        android:text="Submit"/>
+
+</LinearLayout>
